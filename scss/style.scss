@@ -37,13 +37,19 @@ input {
 	text-align: right;
 }
 
+.ltr{
+	direction: ltr;
+}
+.links li{
+	min-width: 70px;
+}
 body {
 	overflow-x: hidden;
 	position: relative;
+	direction: rtl;
 }
 
 body {
-	font-family: $font-family;
 	font-weight: 400;
 	line-height: 28px;
 	color: $body_color;
@@ -943,7 +949,7 @@ a {
 		line-height: 50px;
 		text-align: center;
 		background: $primary;
-		margin-right: 20px;
+		margin-left: 20px;
 		color: $white;
 	}
 }

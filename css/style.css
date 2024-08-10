@@ -17,13 +17,21 @@ input {
   text-align: right;
 }
 
-body {
-  overflow-x: hidden;
-  position: relative;
+.ltr {
+  direction: ltr;
+}
+
+.links li {
+  min-width: 70px;
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+  position: relative;
+  direction: rtl;
+}
+
+body {
   font-weight: 400;
   line-height: 28px;
   color: #6a6a6a;
@@ -769,7 +777,7 @@ a.more {
   line-height: 50px;
   text-align: center;
   background: #000000;
-  margin-right: 20px;
+  margin-left: 20px;
   color: #ffffff;
 }
 
