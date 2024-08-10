@@ -40,6 +40,15 @@ input {
 .ltr{
 	direction: ltr;
 }
+.carousel-item {
+	transform: translateX(100%);
+	transition: transform 0.2s ease-in-out;
+}
+
+.carousel-item.active {
+	transform: translateX(0);
+}
+
 .links li{
 	min-width: 70px;
 }

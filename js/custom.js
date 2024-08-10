@@ -11,11 +11,11 @@
 				axis: "horizontal",
 				controlsContainer: "#testimonial-nav",
 				swipeAngle: false,
-				speed: 700,
+				speed: 1000,
 				nav: true,
 				controls: true,
 				autoplay: true,
-				autoplayHoverPause: false,
+				autoplayHoverPause: true,
 				autoplayTimeout: 2500,
 				autoplayButtonOutput: false
 			});
