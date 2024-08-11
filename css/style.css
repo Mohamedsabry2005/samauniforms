@@ -358,7 +358,7 @@ a.more {
   background-image: url("../images/dots-yellow.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  transform: translate(-40%, -40%);
+  transform: translate(-25%, -40%);
   z-index: -1;
 }
 .why-choose-section .img-wrap img {
@@ -409,7 +409,7 @@ a.more {
   background-image: url("../images/dots-green.svg");
   background-size: contain;
   background-repeat: no-repeat;
-  transform: translate(-40%, -40%);
+  transform: translate(-25%, -40%);
   z-index: -1;
 }
 .we-help-section .imgs-grid .grid {
